@@ -1,24 +1,83 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="undefinedCat's website">
-    <meta property="og:url" content="https://undefinedcat.github.io">
-    <meta property="og:image" content="https://undefinedcat.github.io/assets/opengraph.png">
-    <meta property="og:description" content="undefinedCat's site. Visit it, yes, it's not done, but soon it will 😉.">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>undefinedCat's website</title>
-    <meta name="description" content="undefinedCat's website. Go on it 😉.">
-    <meta name="author" content="undefinedCat">
-    <meta name="copyright" content="(c) undefinedCat 2023">
-    <meta name="robots" content="index, follow">
-    <meta name="rating" content="safe for kids">
-  </head>
-  <body>
-    <div id=header>
-      <h2>&nbsp;&nbsp;&nbsp;&nbsp;undefinedCat's website</h2>
-      <h4 id=buttons>Games</h4>
+<head>
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="undefinedCat's website">
+  <meta property="og:url" content="https://undefinedcat.github.io">
+  <meta property="og:image" content="https://undefinedcat.github.io/assets/opengraph.png">
+  <meta property="og:description" content="undefinedCat's site. Visit it, yes, it's not done, but soon it will 😉.">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>undefinedCat's website</title>
+  <meta name="description" content="undefinedCat's website. Go on it 😉.">
+  <meta name="author" content="undefinedCat">
+  <meta name="copyright" content="(c) undefinedCat 2023">
+  <meta name="robots" content="index, follow">
+  <meta name="rating" content="safe for kids">
+
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="https://placehold.co/384x96"alt="My Logo">
     </div>
-  </body>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section class="hero">
+      <h1>Welcome to my website</h1>
+      <p>Here you can find information about my personal projects and other stuff I'm working on.</p>
+      <button>Learn More</button>
+    </section>
+    
+    <section class="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <a href="#">
+            <img src="project-1.jpg" alt="Project 1">
+            <h3>Project 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="project-2.jpg" alt="Project 2">
+            <h3>Project 2</h3>
+            <p>Phasellus at ligula nec est malesuada commodo eu in nunc.</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="project-3.jpg" alt="Project 3">
+            <h3>Project 3</h3>
+            <p>Donec gravida ipsum sit amet tellus rutrum, id tempor metus fringilla.</p>
+          </a>
+        </li>
+      </ul>
+    </section>
+    
+    <section class="about">
+      <h2>About Me</h2>
+      <ul>
+      <li>Know Python <span><img width=16 src='assets/python.svg'></span> and JS <span><img width=16 src='assets/javascript.svg'></span>.</li>
+        <li>I love building useless things that can't solve real problems.</li>
+        <li>In my free time, I enjoy playing games.</li>
+      </ul>
+    </section>
+  
+  <footer>
+  <p>&copy; 2023 undefinedCat. See <a href='https://github.com/undefinedCat'>me</a> on GitHub. Icons from <a href='simpleicons.org'>Simple Icons</a></p>
+  </footer>
+</body>
 </html>
